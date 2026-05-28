@@ -31,4 +31,4 @@ Live portfolio for Junior Claude AI Systems Builder roles. This repo demonstrate
 - [ ] Add Canva integration example
 
 ---
-Built locally in Tulamba, PK. Maintained with Git for full version history.
+Built locally in Multan, Pakistan. Maintained with Git for full version history.
