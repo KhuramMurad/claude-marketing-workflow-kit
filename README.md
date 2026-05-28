@@ -1,40 +1,34 @@
 # Claude Marketing Workflow Kit
+by Khuram Murad
 
-A demo portfolio repo for Junior Claude AI Systems Builder roles.
+Live portfolio for Junior Claude AI Systems Builder roles. This repo demonstrates how I build Claude Projects, Skills, agents, and SOPs for marketing teams — all maintained locally and version-controlled.
 
-This repo shows you understand:
-- **Claude Projects / Workspaces** – structured folders with context
-- **Claude Skills** – reusable prompt + code packages using progressive disclosure
-- **Claude Cowork** – agents that run multi-step tasks
-- **Integrations** – Gmail, Google Drive, Notion, Canva via MCP connectors
-- **SOPs** – simple documentation teams can follow
+## What this proves
+- **Claude Projects / Workspaces** – structured context in `/projects`
+- **Claude Skills** – reusable, progressive-disclosure packages in `/skills`
+- **Claude Cowork agents** – multi-step workflows in `/agents`
+- **Integrations** – Gmail, Drive, Notion configs in `/integrations`
+- **SOPs** – team documentation in `/sops`
 
-## What's inside
+## Quick demo
+1. Clone repo
+2. Open `/skills/social-calendar-skill/` in Claude.ai > Skills
+3. Create Project using `/projects/marketing-campaign-project/project-instructions.md`
+4. Run: "Generate 2-week calendar for SaaS launch"
 
-### 1. projects/
-- `marketing-campaign-project/` – Project instructions stored as .md (not embedded), with brand voice, goals, and sample data.
+## Structure
+```
+/projects/        # Project instructions (kept in .md, not pasted)
+/skills/          # Each skill = skill.json + instructions.md + assets
+/agents/          # Cowork agent blueprints
+/sops/            # Step-by-step guides for non-technical users
+/integrations/    # MCP connector examples
+```
 
-### 2. skills/
-- `social-calendar-skill/` – skill.json + instructions.md + template.csv
-- `lead-qualifier-skill/` – reusable skill to score inbound leads
-- `report-builder-skill/` – turns spreadsheets into PowerPoint using Claude's code execution
+## Roadmap
+- [ ] Add Loom demo video
+- [ ] Add lead-qualifier skill v2 with Gmail connector
+- [ ] Add Canva integration example
 
-Each skill follows Anthropic's Skills format: name, description, then files loaded only when needed.
-
-### 3. agents/
-- `inbox-triage-agent.md` – simple agent that reads Gmail, drafts replies, logs to Notion
-
-### 4. integrations/
-- `mcp-notion-gmail.yaml` – example connector config
-
-### 5. sops/
-- `SOP-Build-Claude-Project.md` – step-by-step for non-technical teammates
-
-## How this maps to the job post
-- Build Claude Projects → see /projects
-- Create reusable Skills → see /skills
-- Build simple AI agents → see /agents
-- Connect workflows → see /integrations
-- Document everything → see /sops
-
-Use this as a template, replace with real screenshots and Loom videos when you apply.
+---
+Built locally in Tulamba, PK. Maintained with Git for full version history.
