@@ -1,3 +1,4 @@
+![Claude Marketing Workflow Kit](docs/thumbnail.jpg)
 # Claude Marketing Workflow Kit
 by Khuram Murad
 
