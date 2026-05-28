@@ -2,8 +2,5 @@
   "name": "Social Calendar Skill",
   "description": "Generates a 2-week content calendar from brand voice and campaign goals",
   "version": "1.0",
-  "files": [
-    "instructions.md",
-    "template.csv"
-  ]
+  "files": ["instructions.md", "template.csv"]
 }
