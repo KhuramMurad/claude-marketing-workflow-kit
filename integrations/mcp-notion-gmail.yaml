@@ -1,0 +1,5 @@
+connectors:
+  - name: gmail
+    scopes: [read, draft]
+  - name: notion
+    database: Partnerships
